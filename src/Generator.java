@@ -9,11 +9,8 @@ public class Generator {
     private final static int NUMERIC_LENGTH = NUMERIC_CHARS.length();
     private final static int NUMBER_OF_STRINGS = 4;
 
-    public Generator(int length) {
-        generatePassword(length);
-    }
 
-    private static String generatePassword(int length) {
+    public static String generatePassword(int length) {
         int charSelector = 0;
 
         /*
